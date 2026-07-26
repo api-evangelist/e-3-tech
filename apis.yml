@@ -1,7 +1,16 @@
 aid: e-3-tech
 name: E-3 Tech
-description: E-3 Tech is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  E3Tech (E-3 Tech) is an investment firm that partners with entrepreneurs
+  through programmatic M&A and technology amplification, providing
+  private-equity-style investment in profitable service-industry platforms while
+  letting founders retain control and preserve their entrepreneurial culture. It
+  combines strategic acquisitions, operational enhancements, and technology to
+  drive growth across multi-trade construction services, marketing agencies,
+  managed service providers, wealth management, pharmaceutical services, and
+  vegetation management. Surfaced as an a16z-associated portfolio lead and added
+  to the API Evangelist network for enrichment; as an investment/advisory firm it
+  publishes no public API, developer portal, or SDKs at this time.
 url: https://raw.githubusercontent.com/api-evangelist/e-3-tech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,53 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: >-
+  2026-07-18 enrichment pass — e-3.tech resolves to E3Tech, an investment firm
+  (programmatic M&A / technology amplification). No API, developer portal,
+  documentation, OpenAPI, or SDK surface found; no artifact types are applicable.
+  Only honest identity/hygiene fields were filled. Web search budget was exhausted
+  during this run; identity sourced from https://www.e-3.tech directly.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/e-3-tech.png
 tags:
 - Company
+- Investment
+- Private Equity
+- Mergers and Acquisitions
+- Construction Services
+- Managed Services
+- Wealth Management
+- Pharmaceutical
+common:
+- type: Website
+  url: https://www.e-3.tech
+- type: PrivacyPolicy
+  url: https://www.e-3.tech/legal/privacy-policy
+- type: TermsOfService
+  url: https://www.e-3.tech/legal/terms-of-use
+- type: LinkedIn
+  url: https://www.linkedin.com/company/e3techllc/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
